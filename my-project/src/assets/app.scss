@@ -1,0 +1,82 @@
+// body{
+//     background-color:grey;
+// }
+@import '~bootstrap/scss/bootstrap';
+*{margin:0}
+.navbarSupportedContent{
+    float: right;
+}
+.content {
+            float:left;
+            width:100%;
+            background:#FFF;
+            padding:2%; 
+            min-height:400px;
+}
+.footer{
+            grid-area: footer;
+            width:100%;
+            height:auto;
+            padding:5px 10px;
+            background:#000;
+            color:#fff;
+            font-weight: normal;
+            font-size: 12px;
+            font-family: "AvenirNext-Regular", sans-serif;
+            border: 1px solid #FFF;
+            position: center;
+            left: 0px;
+}
+/* A link that has not been visited */
+a {
+    text-decoration: none;
+    color: #ffffff;
+    }
+li {
+    display: inline;
+}
+ul {
+    display:grid;
+    list-style-type:none;
+    margin:0;padding:0;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(5, auto);
+}
+img{ 
+    width:150px;
+    position: left;
+}
+a:active {
+    text-decoration: underline;
+}
+
+// Navbar
+body {
+    padding: 0;
+    margin: 0;
+    }
+    .navbarSupportedContent{
+      float: right;
+    }
+    .comm-about .subheads{
+    width: 75%;
+    margin: auto;
+        margin-bottom: auto;
+    font-family: Times;
+    font-style: italic;
+    letter-spacing: 0.4em;
+    line-height: 1.3em;
+    font-size: 1.03em;
+    color: #444;
+    }
+    .button2 {
+      background-color: #FF1761;
+      border-radius: 12px;
+      size:100px;
+    }
+    .button3 {
+        background-color: rgb(48, 47, 47);
+        border-radius: 12px;
+        float: center;
+        
+      }
